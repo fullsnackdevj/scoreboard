@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 155px;
+    
+}
+
+.teamName{
+    color: #EEEEEE;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#homeScore , #guestScore{
+    font-family: "Cursed Timer ULiL", sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.pointCounters{
+    font-family: "Cursed Timer ULiL", sans-serif;
+    color: #9AABD8;
+    display: flex;
+    justify-content: space-between;
+}
+
+#homeScore, #guestScore{
+    padding-block: 1rem;
+}
+
+.pointCounters button{
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 9px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
